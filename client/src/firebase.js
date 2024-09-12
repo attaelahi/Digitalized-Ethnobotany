@@ -5,7 +5,7 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyDkLmgVc2rncCUVtB1Vf-9nHeHq_N9kkOA",
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
   authDomain: "digitalized-ethnobotany.firebaseapp.com",
   projectId: "digitalized-ethnobotany",
   storageBucket: "digitalized-ethnobotany.appspot.com",
