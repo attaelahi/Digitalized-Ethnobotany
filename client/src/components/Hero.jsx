@@ -21,11 +21,11 @@ const Hero = () => {
           </Link>
         </div>
         <div className="md:w-1/2">
-          <img src="./src/assets/images/hero.jpeg" alt="hero " className="w-full max-w-[570px] object-cover" />
+          <img src="./src/assets/images/hero.png" alt="hero " className="w-full max-w-[570px] object-cover" />
         </div>
       </div>
     </section>
-  );
+  ); 
 };
 
 export default Hero;
