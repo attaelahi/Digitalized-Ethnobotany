@@ -20,7 +20,7 @@ Clone the repository:
 
 bash
 Copy code
-git clone https://github.com/your-username/digitalized-ethnobotany.git
+git clone https://github.com/your-username/digitalized-ethnobotany.git](https://github.com/attaelahi/Digitalized-Ethnobotany.git
 cd digitalized-ethnobotany
 Install dependencies:
 npm install
