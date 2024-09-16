@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.7",
+    "digitalized-ethnobotany": "file:..",
     "firebase": "^10.13.1",
     "flowbite-react": "^0.7.0",
     "mern-blog": "file:..",
