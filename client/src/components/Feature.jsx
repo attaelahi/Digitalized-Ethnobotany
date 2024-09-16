@@ -14,7 +14,7 @@ const Features = () => {
           <div className="bg-white p-6 rounded-lg shadow-lg text-center">
             <div className="text-blue-500 text-4xl mb-4">
               <img
-                src="/public/icons/flower.svg"
+                src="./src/assets/icons/flower.svg"
                 alt="Flower Icon"
                 className="h-16 w-16 mx-auto"
               />
@@ -35,7 +35,7 @@ const Features = () => {
           <div className="bg-white p-6 rounded-lg shadow-lg text-center">
             <div className="text-blue-500 text-4xl mb-4">
               <img
-                src="/public/icons/tree.svg"
+                src="./src/assets/icons/tree.svg"
                 alt="Flower Icon"
                 className="h-16 w-16 mx-auto"
               />
@@ -56,7 +56,7 @@ const Features = () => {
           <div className="bg-white p-6 rounded-lg shadow-lg text-center">
             <div className="text-blue-500 text-4xl mb-4">
               <img
-                src="/public/icons/hurbs.svg"
+                src="./src/assets//icons/hurbs.svg"
                 alt="Flower Icon"
                 className="h-16 w-16 mx-auto"
               />
@@ -77,7 +77,7 @@ const Features = () => {
           <div className="bg-white p-6 rounded-lg shadow-lg text-center">
             <div className="text-blue-500 text-4xl mb-4">
               <img
-                src="/public/icons/shrubs.svg"
+                src="./src/assets/icons/shrubs.svg"
                 alt="Flower Icon"
                 className="h-16 w-16 mx-auto"
               />
