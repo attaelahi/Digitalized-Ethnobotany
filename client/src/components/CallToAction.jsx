@@ -1,9 +1,11 @@
+import calls from '/src/assets//images/calls.jpeg';
+
 const CallToAction = () => {
   return (
     <section className="py-20 bg-green-900 text-white">
       <div className="container mx-auto flex flex-col md:flex-row items-center">
         <div className="md:w-1/2">
-          <img src="./src/assets//images/calls.jpeg" alt="Digitalized Ethnobotany App" className="w-full max-w-[570px] object-cover" />
+          <img src={calls} alt="Digitalized Ethnobotany App" className="w-full max-w-[570px] object-cover" />
         </div>
         <div className="md:w-1/2 md:pl-12">
           <p className="text-lg text-green-300 mb-4">Visit Our Digital Ethnobotany Website</p>

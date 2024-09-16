@@ -1,10 +1,12 @@
+import contact from '/src/assets/images/contact.jpeg';
+
 const Contact = () => {
   return (
     <section className="py-20 bg-gray-200">
       <div className="container mx-auto flex flex-col md:flex-row items-center">
         <div className="md:w-1/2 md:pr-12 mb-8 md:mb-0">
           <img
-            src="./src/assets/images/contact.jpeg"
+            src={contact}
             alt="Contact Us"
             className="w-full max-w-[670px] object-cover rounded-lg shadow-lg"
           />

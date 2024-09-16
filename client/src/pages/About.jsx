@@ -1,10 +1,13 @@
+import about from '/src/assets/images/about.jpeg';
+
+
 const About = () => {
   return (
     <section className="py-20 bg-gray-200">
       <div className="container mx-auto flex flex-col md:flex-row items-center">
         <div className="md:w-1/2">
           <img
-            src="./src/assets/images/about.jpeg"
+            src={about}
             alt="about banner"
             className="w-full max-w-[670px] object-cover"
           />
