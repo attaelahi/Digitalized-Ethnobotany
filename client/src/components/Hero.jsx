@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <section className="bg-green-900 text-white py-20 min-h-[70vh]">
       <div className="container mx-auto flex flex-col md:flex-row items-center">
-        <div className="md:w-1/2 text-center md:text-left">
+        <div className="md:w-1/2 text-center md:text-left order-2 md:order-1">
           <h1 className="text-3xl md:text-6xl font-bold mb-6">
             Welcome on Digitalized Ethnobotany
           </h1>
@@ -21,8 +21,8 @@ const Hero = () => {
             View all posts
           </Link>
         </div>
-        <div className="md:w-1/2">
-          <img src={hero} alt="hero " className="w-full max-w-[570px] object-cover" />
+        <div className="md:w-1/2 order-1 md:order-2 mb-8 md:mb-0">
+          <img src={hero} alt="hero" className="w-full max-w-[570px] object-cover" />
         </div>
       </div>
     </section>

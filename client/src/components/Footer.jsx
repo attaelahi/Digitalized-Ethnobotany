@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <footer className="bg-gray-900 text-white py-12">
-      <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-        <div>
+      <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="text-center sm:text-left">
           <Link
             to="/"
             className="self-center whitespace-nowrap text-sm sm:text-xl font-semibold dark:text-white"
@@ -19,7 +19,7 @@ const Footer = () => {
             around the world. Join us on this journey to learn and preserve the
             ethnobotanical knowledge passed down through generations.
           </p>
-          <div className="flex space-x-4">
+          <div className="flex justify-center sm:justify-start space-x-4">
             <a
               href="https://facebook.com"
               target="_blank"
@@ -84,7 +84,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div>
+        <div className="text-center sm:text-left">
           <h3 className="text-xl font-bold mb-4">Company</h3>
           <ul className="text-gray-400 space-y-2">
             <li>
@@ -112,7 +112,7 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <div>
+        <div className="text-center sm:text-left">
           <h3 className="text-xl font-bold mb-4">Useful Links</h3>
           <ul className="text-gray-400 space-y-2">
             <li>
@@ -142,10 +142,10 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <div>
+        <div className="text-center sm:text-left">
           <h3 className="text-xl font-bold mb-4">Get In Touch</h3>
           <ul className="text-gray-400 space-y-2">
-            <li className="flex items-center">
+            <li className="flex items-center justify-center sm:justify-start">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-6 w-6 mr-2"
@@ -164,7 +164,7 @@ const Footer = () => {
                 +12345678908
               </a>
             </li>
-            <li className="flex items-center">
+            <li className="flex items-center justify-center sm:justify-start">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-6 w-6 mr-2"
@@ -186,7 +186,7 @@ const Footer = () => {
                 digitalizedethnobotany@gmail.com
               </a>
             </li>
-            <li className="flex items-center">
+            <li className="flex items-center justify-center sm:justify-start">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-6 w-6 mr-2"
