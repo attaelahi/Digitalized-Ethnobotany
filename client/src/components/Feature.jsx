@@ -1,4 +1,8 @@
 import { Link } from "react-router-dom";
+import shurb from '/src/assets/icons/shrubs.svg';
+import flowers from '/src/assets/icons/flower.svg';
+import tree from '/src/assets/icons/tree.svg';
+import hurbs from '/src/assets//icons/hurbs.svg';
 const Features = () => {
   return (
     <section className="py-20 bg-gray-100 min-h-[70vh]">
@@ -14,7 +18,7 @@ const Features = () => {
           <div className="bg-white p-6 rounded-lg shadow-lg text-center">
             <div className="text-blue-500 text-4xl mb-4">
               <img
-                src="./src/assets/icons/flower.svg"
+                src={flowers}
                 alt="Flower Icon"
                 className="h-16 w-16 mx-auto"
               />
@@ -34,11 +38,12 @@ const Features = () => {
           {/* Trees Category */}
           <div className="bg-white p-6 rounded-lg shadow-lg text-center">
             <div className="text-blue-500 text-4xl mb-4">
-              <img
-                src="./src/assets/icons/tree.svg"
-                alt="Flower Icon"
-                className="h-16 w-16 mx-auto"
-              />
+            <img 
+             src={tree}  // Correct way to insert the image variable
+             alt="Tree Icon" 
+             className="h-16 w-16 mx-auto"
+             />
+
             </div>
             <h3 className="text-xl font-bold mb-4">Trees</h3>
             <p className="text-gray-600 mb-4">
@@ -56,7 +61,7 @@ const Features = () => {
           <div className="bg-white p-6 rounded-lg shadow-lg text-center">
             <div className="text-blue-500 text-4xl mb-4">
               <img
-                src="./src/assets//icons/hurbs.svg"
+                src={hurbs}
                 alt="Flower Icon"
                 className="h-16 w-16 mx-auto"
               />
@@ -77,7 +82,7 @@ const Features = () => {
           <div className="bg-white p-6 rounded-lg shadow-lg text-center">
             <div className="text-blue-500 text-4xl mb-4">
               <img
-                src="./src/assets/icons/shrubs.svg"
+                src={shurb}
                 alt="Flower Icon"
                 className="h-16 w-16 mx-auto"
               />
