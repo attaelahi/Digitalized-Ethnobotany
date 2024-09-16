@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "nodemon api/index.js",
     "start": "node api/index.js",
-    "build": "npm install && npm install --prefix client && npm run build --prefix client"
+    "build": "NODE_OPTIONS=--max_old_space_size=2048 prisma migrate deploy && next build"
   },
   "keywords": [],
   "author": "",
