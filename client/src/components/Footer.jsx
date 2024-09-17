@@ -207,11 +207,11 @@ const Footer = () => {
                   d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
                 />
               </svg>
-              {/* <address className="hover:text-white">
+              <address className="hover:text-white">
                 Chitral University,
                 <br />
                 Seenlast, Chitral, 1122
-              </address> */}
+              </address>
             </li>
           </ul>
         </div>
